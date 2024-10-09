@@ -9,13 +9,13 @@ function Summary() {
 
     
     const openGitHub = () => {
-        toast.success('Opening GitHub...');
+        toast.success(translations.openingGitHub);
         window.open('https://github.com/ecetinerdem', '_blank');
     };
 
     
     const openLinkedIn = () => {
-        toast.success('Opening LinkedIn...');
+        toast.success(translations.openingLinkedIn);
         window.open('https://www.linkedin.com/in/engin-cetin-erdem/', '_blank');
     };
 

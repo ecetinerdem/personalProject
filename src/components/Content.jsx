@@ -33,13 +33,13 @@ function Content(props) {
     // Make POST request
     try {
       const response = await axios.post('https://reqres.in/api/workintech', {
-        message: 'Job Offer',
+        message: 'Job Offer/İş Teklifi',
         timestamp: new Date().toISOString()
       });
-      toast.success('Send your email!');
+      toast.success(translations.sendEmail);
       console.log('Successful response:', response.data);
     } catch (error) {
-      toast.error('Error sending message!');
+      toast.error(translations.errorMessage);
       console.error('Error:', error);
     }
   };

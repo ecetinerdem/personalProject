@@ -1,3 +1,5 @@
+
+
 export const translations = {
   en: {
     skills: "Skills",
@@ -24,6 +26,10 @@ export const translations = {
     footerTxtOne: "Let's work together on",
     footerTxtTwo: "your next product.",
     personalBlog: "Personal Blog",
+    openingGithub: "Opening GitHub...",
+    openingLinkedIn: "Opening LinkedIn...",
+    sendEmail: "Send your email!!",
+    errorMessage: "Something went wrong!!",
   },
   tr: {
     skills: "Yetenekler",
@@ -50,6 +56,10 @@ export const translations = {
     footerTxtOne: "Birsonraki uygulamanızda",
     footerTxtTwo: "beraber çalışalım.",
     personalBlog: "Kişisel Blog",
+    openingGithub: "Github açılıyor...",
+    openingLinkedIn: "Linkedin açılıyor...",
+    sendEmail: "Emailinizi gönderin!!",
+    errorMessage: "Bir hata oluştu!!",
   }
 };
 
